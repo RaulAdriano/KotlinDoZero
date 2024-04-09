@@ -6,7 +6,7 @@ fun retornaNomeUsuario(){
 
 }
 
-class Usuario(){
+class Usuario{
 
 }
 
