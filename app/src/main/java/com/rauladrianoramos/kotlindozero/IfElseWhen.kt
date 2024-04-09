@@ -31,7 +31,8 @@ fun main(){
         println("opções selecionadas: 1, 2 e 3")
     }else if (opcaoAtendimento in 4..8){
         println("opções selecionadas: 4, 5, 6, 7 e 8")
-
+    }else{
+        println("Nenhuma opção selecionada")
     }
 
     //when
