@@ -1,6 +1,8 @@
 package com.rauladrianoramos.kotlindozero
 
-
+//Abstração
+//Pessoa: cpf, nome, idade, ...
+//Cachorro: nome, raça, peso, porte, ...
 
 class Jogador{
 
