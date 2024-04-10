@@ -20,5 +20,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "KotlinDoZero"
-include(":app")
- 
+include(":passageiro")
+include(":motorista")
+include(":recursos")

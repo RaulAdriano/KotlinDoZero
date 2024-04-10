@@ -23,6 +23,18 @@ class Ferrari : CarroCorrida(){
 }
 
 
+/*
+    UBER  (MODULOS)
+        - MOTORISTA (APP DIFERENTE)
+        - PASSAGEIRO (APP DIFERENTE)
+
+    IFOOD
+        - CLIENTE (APP DIFERENTE)
+        - RESTAURANTE (APP DIFERENTE)
+
+
+ */
+
 fun main(){
 
 }
