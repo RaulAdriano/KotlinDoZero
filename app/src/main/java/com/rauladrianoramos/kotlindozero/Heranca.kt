@@ -1,8 +1,8 @@
 package com.rauladrianoramos.kotlindozero
 
 
-//SuperClass ou classe pai
-open class Animal {
+//SuperClass, classe pai, abstrata
+abstract class Animal {
     var cor = ""
     var tamanho = "" //pequeno,medio,grande porte
     var peso = 0.0
@@ -11,11 +11,11 @@ open class Animal {
         print("correr como um ")
     }
 
-    fun dormir() {}
+    abstract fun dormir()
 }
 
 //: Animal() - Herança - : seria igual extends em Java
-//subClass ou classe filha
+//subClass ou classe filha, concreta
 class Cao : Animal() {
 
     fun latir() {
@@ -25,6 +25,10 @@ class Cao : Animal() {
     override fun correr() {
         super.correr()
         println("Cao de 4 patas")
+    }
+
+    override fun dormir() {
+        println("Cão - Dormir")
     }
 
 }
@@ -39,6 +43,10 @@ class Passaro : Animal() {
         super.correr()
         println("Passaro de 2 patas")
     }
+
+    override fun dormir() {
+        println("Passaro - Dormir")
+    }
 }
 
 fun main() {
@@ -46,9 +54,11 @@ fun main() {
     val cao = Cao()
     cao.latir()
     cao.correr()
+    cao.dormir()
 
     val passaro = Passaro()
     passaro.voar()
     passaro.correr()
+    passaro.dormir()
 
 }
